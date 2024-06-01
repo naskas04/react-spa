@@ -24,7 +24,7 @@ function NoMatch(){
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-spa">
         <Header/>
         <main className='container-content'>
           <Routes>
